@@ -10,7 +10,6 @@ var login = require('../App_action/opencart_Action.js');
 
 Given('user login in to opencart application using invalid creditials {string} and {string}',function (username, password) {
    
-  console.log("raj");
   login.crediential(username,password);
   
   });
