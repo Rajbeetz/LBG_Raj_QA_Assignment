@@ -1,0 +1,22 @@
+{
+  "name": "cucumberjs",
+  "version": "1.0.0",
+  "description": "test using cucumber with js",
+  "main": "index.js",
+  "dependencies": {
+    "chromedriver": "^2.43.1",
+    "cucumber": "^5.0.2",
+    "gulp": "^3.9.1",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "xml2js": "^0.4.19",
+    "xmldom": "^0.1.27"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^4.0.4"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js features/opencart.feature --format json:report/cucumber-json-report.json"
+  },
+  "author": "Raj",
+  "license": "ISC"
+}

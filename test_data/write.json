@@ -1,0 +1,9 @@
+{
+    "employee": {
+        "name": "RajKumar",
+        "company": "wipro",
+        "role": "Senior Test Engineer",
+        "exp": "6",
+        "location": "DTP"
+    }
+}

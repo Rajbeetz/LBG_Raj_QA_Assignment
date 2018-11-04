@@ -1,0 +1,65 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login to wipro Appliaction",
+    "line": 1,
+    "id": "login-to-wipro-appliaction",
+    "tags": [],
+    "uri": "features/opencart.feature",
+    "elements": [
+      {
+        "id": "login-to-wipro-appliaction;login-with-valid-id",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "login with valid id",
+        "tags": [
+          {
+            "name": "@raj",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user login in to opencart application using invalid creditials \"raj.v26@wipro.com\" and \"wip1234\"",
+            "match": {
+              "location": "features/step_definitions/opencart.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user clicks on submit button",
+            "match": {
+              "location": "features/step_definitions/opencart.js:19"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "verify the error message and close the browser",
+            "match": {
+              "location": "features/step_definitions/opencart.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

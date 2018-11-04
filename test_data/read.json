@@ -1,0 +1,9 @@
+{
+	"employee": {
+		"name": "Raj",
+		"company": "wipro",
+		"role": "test analayst",
+		"exp": "6",
+		"location": "bangalore"
+	}
+}
